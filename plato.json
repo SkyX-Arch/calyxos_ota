@@ -1,28 +1,50 @@
 {
-    "response": [
+    "__": "*** Generated using tools/gen_update_config.py ***",
+    "build_date_utc": 1791884438,
+    "build_number": "1791884438",
+    "changelog_url": "https://skyx-arch.github.io/calyxos_ota/plato_changelog.txt",
+    "security_patch_level": "2026-10-01",
+    "zips": [
         {
-            "maintainer": "SkyX-Arch",
-            "oem": "Xiaomi",
-            "device": "Xiaomi 12T",
-            "filename": "crDroidAndroid-16.0-20260923-platoGAPPS-v12.12.zip",
-            "download": "https://pixeldrain.com/api/file/sCj8xdtQ?download",
-            "timestamp": 1790149586,
-            "md5": "2b99c052ca04dcee9f74766326471b97",
-            "sha256": "6bf3a6b56471918ab54ae107bbaef6a89ab01c5a26640be8b0a99c1bf8512f1e",
-            "size": 2158487228,
-            "version": "9-elefthería",
-            "buildtype": "Unofficial",
-            "forum": "https://github.com/SkyX-Arch/risingos_ota",
-            "gapps": "",
-            "firmware": "https://xmfirmwareupdater.com/firmware/plato/stable/OS2.0.214.0.VLQMIXM/",
-            "modem": "",
-            "bootloader": "",
-            "recovery": "",
-            "paypal": "",
-            "telegram": "https://t.me/SkyXArch",
-            "dt": "https://github.com/SkyX-Arch/android_device_xiaomi_plato",
-            "common-dt": "https://github.com/SkyX-Arch/android_device_xiaomi_mt6895-common",
-            "kernel": "https://github.com/XagaForge/android_kernel_xiaomi_mt6895"
+            "filename": "calyx_plato-ota.zip",
+            "url": "https://sourceforge.net/projects/skyx-arch-roms/files/Xiaomi_Plato/CalyxOS/calyx_plato-ota.zip/download",
+            "property_files": [
+                {
+                    "filename": "payload_metadata.bin",
+                    "offset": 5005,
+                    "size": 150756
+                },
+                {
+                    "filename": "payload.bin",
+                    "offset": 5005,
+                    "size": 2168941674
+                },
+                {
+                    "filename": "payload_properties.txt",
+                    "offset": 2168946737,
+                    "size": 156
+                },
+                {
+                    "filename": "apex_info.pb",
+                    "offset": 2378,
+                    "size": 1453
+                },
+                {
+                    "filename": "care_map.pb",
+                    "offset": 3878,
+                    "size": 1080
+                },
+                {
+                    "filename": "metadata",
+                    "offset": 69,
+                    "size": 689
+                },
+                {
+                    "filename": "metadata.pb",
+                    "offset": 826,
+                    "size": 1504
+                }
+            ]
         }
     ]
 }
